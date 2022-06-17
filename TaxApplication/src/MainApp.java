@@ -21,7 +21,7 @@ public class MainApp extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 Double price = Double.parseDouble(PricetextField.getText());
-                price = price * 1.07;
+                price = price * 1.1;
                 ResultLabel.setText(price.toString() + "THB");
 
             }
